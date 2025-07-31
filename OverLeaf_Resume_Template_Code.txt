@@ -1,0 +1,113 @@
+documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome}  % For icons
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{4pt}\scshape\large\raggedright
+}{}{0em}{}[\titlerule \vspace{-4pt}]
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+    {\Huge \textbf{\scshape MANASA H N}} \\ \vspace{2pt}
+    \faPhone~9353077902 \quad
+    \faEnvelope~\href{mailto:manasahngowda4@gmail.com}{manasahngowda4@gmail.com} \quad
+    \faLinkedin~\href{https://linkedin.com}{LinkedIn} \quad
+    \faGithub~\href{https://github.com}{GitHub} \quad
+    \faMapMarker~Bangalore
+\end{center}
+
+%-----------PROFILE SUMMARY-----------
+\section*{Profile Summary}
+Motivated and detail-oriented Computer Science student with experience in Python, web development, and AI-driven projects.  
+Completed hands-on internships and academic work in automation, robotics, and real-time applications.  
+Seeking an opportunity to apply my skills in a challenging environment and contribute to innovative solutions.
+
+%-----------EDUCATION-----------
+\section{Education}
+\textbf{B.E in Computer Science} \hfill 2021 -- 2025 \\
+The Oxford College Of Engineering, Bangalore\\                              CGPA: 8.5
+
+\vspace{4pt}
+\textbf{PU}, Smt.PS Mahalingappa PU College, Davangere\hfill 2019 -- 2021 \\
+Percentage: 98.33\%
+
+\vspace{4pt}
+\textbf{SSLC}, Morarji Desai Residential School, Sindigere \hfill 2018 -- 2019 \\
+Percentage: 92.64\%
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.5cm, itemsep=1pt]
+    \item \textbf{Language:} Python
+    \item \textbf{Database:} MySQL
+    \item \textbf{Web Development:} HTML, CSS
+\end{itemize}
+
+%-----------PROJECTS-----------
+\section{Projects}
+
+\textbf{Smart Study AI (Python,Flask,MySQL)} \\
+Smart Study AI is an intelligent web application designed to extract, process, and analyze text from PDFs or handwritten notes, offering users quick access to summarized and organized content.  
+Implemented text extraction, summarization, and interface design using Python and Flask.
+
+\vspace{4pt}
+\textbf{Florist’s Management System (HTML,CSS,MySQL) } \\
+Developed a Florist’s Management System to streamline customer coordination, order tracking, and inventory management. Integrated automated workflows to enhance efficiency, reduce errors and improve vendor communication.  
+Used MySQL for managing inventory data and developed user-friendly front-end using HTML/CSS.
+
+\vspace{4pt}
+\textbf{PhishTrap (Python,Flask)} \\
+Implemented machine learning models to detect typosquatting and malicious domains and built a Flask-based backend with a REST API for seamless integration.  
+Trained and tested models using real phishing datasets to improve detection accuracy.
+
+%-----------INTERNSHIP-----------
+\section{Internship}
+\textbf{Robotics Internship (ComedKares Innovation Hub, Bengaluru)} \\
+\begin{itemize}[leftmargin=0.5cm]
+    \item Gained hands-on experience in automation, AI, and robotic systems.
+    \item Worked on designing, programming, and testing robotic prototypes.
+\end{itemize}
+
+\textbf{Phase 1 Inter College Internship – The Oxford College Of Engineering}
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+\begin{itemize}[leftmargin=0.5cm]
+    \item Participated in Maze Mouse Competition organized by IIT Madras.
+\end{itemize}
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+\begin{itemize}[leftmargin=0.5cm]
+    \item Python Complete Course for Beginners - Horizon Tech
+    \item Python Crash Course - Neuralclass Academy
+\end{itemize}
+
+\end{document}
