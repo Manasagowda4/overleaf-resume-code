@@ -67,8 +67,6 @@ Update fields like:
 ## 5️⃣ **Download PDF**
 ✅ Click **Download PDF** (top-right)  
 
-![Download PDF](images/download-button.png.png)
-
 ---
 
 # 🎨 Sample Output
